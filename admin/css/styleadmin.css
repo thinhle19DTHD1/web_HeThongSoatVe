@@ -1,0 +1,27 @@
+.menu {
+    border: 1px solid #1aff8c;
+    height: 50px;
+    width: 100%;
+    background: darkslategray;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+} 
+ul.list_menu li:hover {
+    background: cadetblue;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+ul.list_menu li {
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
