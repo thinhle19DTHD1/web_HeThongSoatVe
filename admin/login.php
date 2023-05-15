@@ -8,7 +8,7 @@
     <title>Admin</title>
 </head>
 <body>
-<form method="post" action="#" class="box">
+<form method="post" action="" class="box">
         <H1>LOGIN</H1>
         <input type="text" placeholder="Email"><br>
         <input type="password" placeholder="Password"><br>
