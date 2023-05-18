@@ -8,14 +8,12 @@
     <title>Admin</title>
 </head>
 <body>
-<!-- <h3 class="title_admin">Wellcome to Admin</h3> -->
     <div class="wrapper">
         <?php
             include('config/config.php');
             include("modules/header.php");
             include("modules/menu.php"); 
-            // include("modules/main.php"); 
-            // include("modules/footer.php"); 
+            include("modules/campaign_menu.php"); 
         ?>
     </div>
 </body>
