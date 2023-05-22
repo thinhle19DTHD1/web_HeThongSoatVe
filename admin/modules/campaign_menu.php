@@ -7,10 +7,10 @@
         <h3 style="margin-top: 10px; margin-left: 10px;">Campaign Detail > Sting Café 1</h3>
 
                 <ul class="campaign_list_menu">
-                    <li><a href="index.php?quanly=giohang">Information </a></li>
-                    <li><a href="index.php?quanly=dangky">Promo Code </a></li>
-                    <li><a href="index.php?quanly=tintuc">Import Promo Code </a></li>
-                    <li><a href="index.php?quanly=lienhe">Configuration </a></li>
-                    <li><a href="index.php?quanly=lienhe">Redemption History </a></li>
+                    <li><a href="index.php?quanly=thongtin">Information </a></li>
+                    <li><a href="index.php?quanly=makhuyenmai">Promo Code </a></li>
+                    <li><a href="index.php?nhapmakhuyenmai">Import Promo Code </a></li>
+                    <li><a href="index.php?quanly=cauhinh">Configuration </a></li>
+                    <li><a href="index.php?quanly=lichsudoithuong">Redemption History </a></li>
                 </ul>
 </div>

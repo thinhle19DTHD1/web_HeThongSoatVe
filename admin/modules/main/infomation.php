@@ -1,0 +1,1 @@
+<p>Trang thông tin</p>
