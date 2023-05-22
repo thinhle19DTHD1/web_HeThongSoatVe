@@ -12,7 +12,7 @@
             header("Location: index.php");
         }else{
             echo '<script> alert("Tài khoản hoặc mật khẩu không đúng, vui lòng đăng nhập lại."); </script>';
-            header("Location: login.php");
+            // header("Location: login.php");
         }
     }
 ?>
@@ -23,7 +23,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styleadmin.css">
-    <title>Admin</title>
+    <title>Login admin</title>
 </head>
 <body>
 <form method="POST" action="" class="box">
