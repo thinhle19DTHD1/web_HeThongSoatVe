@@ -1,1 +1,1 @@
-<p>Cấu hình</p>
+<h1>Cấu hình</h1>

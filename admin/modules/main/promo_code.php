@@ -1,1 +1,1 @@
-<p>Mã khuyến mãi</p>
+<h1>Mã khuyến mãi</h1>

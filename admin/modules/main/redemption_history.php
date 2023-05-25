@@ -1,1 +1,1 @@
-<p>Lịch sử thưởng</p>
+<h1>Lịch sử thưởng</h1>
