@@ -5,4 +5,4 @@
     }
 ?>
 
-<p style="margin-left:2050px";><a href="index.php?dangxuat=1">Log out</a></p> 
+<p style="margin-left:1600px";><a href="index.php?dangxuat=1">Log out</a></p> 

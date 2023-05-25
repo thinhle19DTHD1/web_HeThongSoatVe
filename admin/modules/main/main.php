@@ -8,18 +8,18 @@
                         $tam = '';
                     }
                     if($tam=='thongtin'){
-                        include("main/infomation.php");
+                        include("../main/infomation.php");
                     }elseif ($tam =='makhuyenmai'){
-                        include("main/promo_code.php");
+                        include("../main/promo_code.php");
                     }elseif ($tam =='nhapmakhuyenmai'){
-                        include("main/import_promo_code.php");
+                        include("../main/import_promo_code.php");
                     }elseif ($tam =='cauhinh'){
-                        include("main/configuration.php");
+                        include("../main/configuration.php");
                     }elseif ($tam =='lichsudoithuong'){
-                        include("main/redemption_history.php");
+                        include("../main/redemption_history.php");
                     }
                     else{
-                        include("main/index.php");
+                        include("../../index.php");
                     }
                 ?>
             </div>    

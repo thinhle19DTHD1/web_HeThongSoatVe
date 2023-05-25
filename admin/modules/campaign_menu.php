@@ -9,7 +9,7 @@
                 <ul class="campaign_list_menu">
                     <li><a href="index.php?quanly=thongtin">Information </a></li>
                     <li><a href="index.php?quanly=makhuyenmai">Promo Code </a></li>
-                    <li><a href="index.php?nhapmakhuyenmai">Import Promo Code </a></li>
+                    <li><a href="index.php?quanly=nhapmakhuyenmai">Import Promo Code </a></li>
                     <li><a href="index.php?quanly=cauhinh">Configuration </a></li>
                     <li><a href="index.php?quanly=lichsudoithuong">Redemption History </a></li>
                 </ul>
