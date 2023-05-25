@@ -1,1 +1,1 @@
-<p>Trang thông tin</p>
+<h1>Trang quản lý thông tin</h1>
