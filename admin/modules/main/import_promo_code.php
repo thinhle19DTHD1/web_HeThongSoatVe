@@ -1,1 +1,1 @@
-<h1>Nhập mã khuyến mãi=</h1>
+<h1>Nhập mã khuyến mãi</h1>

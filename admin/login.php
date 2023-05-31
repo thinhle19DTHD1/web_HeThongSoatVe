@@ -12,7 +12,6 @@
             header("Location: index.php");
         }else{
             echo '<script> alert("Tài khoản hoặc mật khẩu không đúng, vui lòng đăng nhập lại."); </script>';
-            // header("Location: login.php");
         }
     }
 ?>
