@@ -17,8 +17,6 @@
 <body>
     <div class="wrapper">
         <?php
-        // session_start();
-        // unset($_SESSION['dangnhap']);
             include('config/config.php');
             include("modules/header.php");
             include("modules/menu.php"); 

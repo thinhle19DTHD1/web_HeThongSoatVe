@@ -64,6 +64,9 @@ ul.campaign_list_menu li a {
     color: black;
     display: block;
 }
+table {
+    background: white;
+}
 
 /* Maincontain */
 .maincontent {
@@ -73,7 +76,7 @@ ul.campaign_list_menu li a {
     margin-top: 10px;
     margin-left: 5px;
     float: left;
-    background: gainsboro;
+    background: aliceblue;
 }
 
 /* login */
@@ -82,7 +85,7 @@ html, body{
 }
 .box {
     text-align: center;
-    background: darkturquoise;
+    background: darkseagreen;
     width: 100%;
     height: 100%;
     padding: 25px;
