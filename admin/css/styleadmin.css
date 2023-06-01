@@ -130,3 +130,27 @@ html, body{
     background: #002cff;
     transition: 1s;
 }
+
+/* search promo code */
+.search_menu {
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 70px;
+    width: 100%;
+    background: aliceblue;
+}
+.search_menu td {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.search_filter {
+    padding: 0;
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 20px;
+}
