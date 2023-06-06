@@ -67,7 +67,7 @@ while($row = mysqli_fetch_array($query_lietke)){
     <td><?php echo $row['latest_update'] ?></td>
     <td><?php if($row['promocode_status']==1){
         echo '<a style="text-decoration: none;" href="modules/main/xuly.php?code='.$row['promo_code'].'&status=1">Deactivate</a>';
-      }else{
+      }else if($row['promocode_status']==0){
         echo '<a style="text-decoration: none;" href="modules/main/xuly.php?code='.$row['promo_code'].'&status=0">Activate</a>';
       }
       ?>

@@ -29,8 +29,8 @@
         <h1>LOGIN</h1>
         <input type="text" name="username" placeholder="Email"><br>
         <input type="password" name="password" placeholder="Password"><br>
-        <input type="submit" name="dangnhap" value="ĐĂNG NHẬP"><br>
-        <td><a style="text-decoration:none" href="#">Quên mật khẩu </a></td>
+        <input type="submit" name="dangnhap" value="LOGIN"><br>
+        <td><a style="text-decoration:none" href="#">Forgot your password </a></td>
 
  </form>
         
