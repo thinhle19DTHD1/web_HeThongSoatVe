@@ -38,7 +38,7 @@
 
     <tr>
       <td>*Send to email : </td>
-      <td><input type="text" size="50" name="email_client"></td>
+      <td><input type="text" size="50" name="email_send"></td>
     </tr>
 </div>
   </tr> 
