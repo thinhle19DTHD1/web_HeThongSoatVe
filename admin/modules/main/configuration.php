@@ -33,11 +33,11 @@
   <tr>
   <input type="checkbox" id="check" name="send" value="daily_report"><label for="send">   Send report automatically </label>
   <div style="float:right; margin-right: 500px">  
-    <td>*Time send : </td>
+    <td>*Time send:</td>
     <td><input type="date" size="30" name="select_time"></td>
 
     <tr>
-      <td>*Send to email : </td>
+      <td>*Send to email:</td>
       <td><input type="text" size="50" name="email_send"></td>
     </tr>
 </div>
