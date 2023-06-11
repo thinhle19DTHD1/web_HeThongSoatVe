@@ -12,7 +12,7 @@
                     }elseif ($tam =='makhuyenmai'){
                         include("main/promo_code.php");
                     }elseif ($tam =='nhapmakhuyenmai'){
-                        include("main/import_promo_code.php");
+                        include("main/import_promo_code/import_promo_code.php");
                     }elseif ($tam =='cauhinh'){
                         include("main/configuration.php");
                     }elseif ($tam =='lichsudoithuong'){

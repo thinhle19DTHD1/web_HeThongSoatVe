@@ -18,6 +18,7 @@
       <input type="text" size="1" name="Code_usage_limit">
       <input type="checkbox" id="check" name="no_limit" value="usage_limit"><label for="no_limit">Unlimited</label><br>
     </td>  
+</tr>
 </form> 
 </table>
 
