@@ -27,17 +27,18 @@
     $query_lietke = mysqli_query($mysqli,$sql_list_promocode);
 ?>
 
-<h3><i>Promo Code List</i></h3>
+<h3><i>List all SMS</i> </h3> 
+<h3><i><a style="float:right; margin-right:20px" href="#">Download(csv)</a></i></h3>
 <table style= "width:100%" border="1" style="border-collapse:collapse">
   <tr>
-    <th>Promo Code </th>
-    <th>Active</th>
-    <th>Start Date</th>
-    <th>Expired Date</th>
+    <th>Sent Code</th>
+    <th>Requested by</th>
+    <th>Requested Date</th>
     <th>Redemption</th>
-    <th>Owner</th>
     <th>Latest Update</th>
-    <th>Action</th>
+    <th>Request Source</th>
+    <th>Reference</th>
+    <th>Note</th>
 
   </tr>
 <?php
@@ -47,15 +48,8 @@ while($row = mysqli_fetch_array($query_lietke)){
 ?>
   <tr style="text-align:center">
     <td><?php echo $row['promo_code'] ?></td>
-    <td><?php if($row['promocode_status']==1){
-        echo '<p style="color:green">Is active...</p>';
-      }else{
-        echo '<p style="color:red">Deactivated...</p>';
-      }
-      ?>
-    </td>
+    <td><?php echo $row['owner'] ?></td>
     <td><?php echo $row['start_date'] ?></td>
-    <td><?php echo $row['expired_date'] ?></td>
     <td><?php if($row['redemption']==1){
         echo '<a style="color:green">Success</a>';
       }else{
@@ -64,22 +58,15 @@ while($row = mysqli_fetch_array($query_lietke)){
       }
       ?>
     </td>
-    <td><?php echo $row['owner'] ?></td>
     <td><?php echo $row['latest_update'] ?></td>
-
-    <td>
-      <?php
-      $i=$row['promocode_status'];
-        if($row['promocode_status']==1){
-          echo '<a style="text-decoration: none;" href="modules/main//xuly/deactive.php?code='.$row['promo_code'].'&status='.$i.'">Deactivate</a>';
-        }else if($row['promocode_status']==0){
-          echo 'Deactivated...';
-        }
-      ?>
-    </td>
+    <td><?php echo $row['request_source'] ?></td>
+    
+    <td><?php echo $row['reference'] ?></td>
+    <td><?php echo $row['note'] ?></td>
 
   </tr> 
   <?php 
 }   
   ?>
 </table>
+

@@ -1,4 +1,6 @@
 <h3><i>Import Promo Code History</i></h3>
+<h3><i><a style="float:right; margin-right:20px" href="#">Import(xlsx)</a></i></h3>
+<h3><i><a style="float:right; margin-right:50px" href="#">Download template</a></i></h3>
 <?php 
     $sql_import_promocode = "SELECT * FROM tbl_promocode,tbl_admin WHERE tbl_promocode.id_admin=tbl_admin.id_admin ORDER BY id_promocode DESC";
     $query_lietke = mysqli_query($mysqli,$sql_import_promocode);

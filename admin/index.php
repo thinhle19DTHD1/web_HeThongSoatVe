@@ -21,7 +21,7 @@
             include("modules/header.php");
             include("modules/menu.php"); 
             include("modules/campaign_menu.php");
-            include("modules/main.php"); 
+            include("modules/main.php");    
         ?>
     </div>
 </body>
