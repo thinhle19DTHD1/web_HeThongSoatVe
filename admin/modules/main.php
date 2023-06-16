@@ -34,6 +34,10 @@
                         include("main_menu/xuly/add_user.php");
                     }elseif($tam=='deactivate'){
                         include("main_menu/xuly/deactivate.php");
+                    }elseif ($tam =='addtickets'){
+                        include("add_tickets/add_tickets.php");
+                        include("add_tickets/lietke.php");
+
                     }
 
                     elseif($tam=='report'){
